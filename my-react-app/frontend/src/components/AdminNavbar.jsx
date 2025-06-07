@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
 
-const ManagerNavbar = () => {
+const AdminNavbar = () => {
   return (
     <nav>
         <NavLink to='/'></NavLink> {/* tài khoản admin */}
@@ -14,4 +14,4 @@ const ManagerNavbar = () => {
   )
 }
 
-export default ManagerNavbar
+export default AdminNavbar
