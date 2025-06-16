@@ -1,0 +1,22 @@
+/* PriceFilter.css */
+.price-filter input[type='number'] {
+  max-width: 100px;
+  width: 100%;
+  padding: 4px 8px;
+  font-size: 0.9rem;
+}
+/* Hover cho nút sắp xếp */
+.price-filter .btn-outline-secondary:hover {
+  background-color: #5c5b5b; /* màu xám đậm hơn */
+  color: white;
+  border-color: #6c757d;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover cho nút Lọc */
+.price-filter .btn-primary:hover {
+  background-color: #575757; /* xanh đậm hơn */
+  border-color: #383838;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}

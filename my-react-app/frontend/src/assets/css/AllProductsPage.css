@@ -1,0 +1,19 @@
+.all-products-page {
+  padding: 16px;
+}
+
+.product-container {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+/* Sidebar (chiếm khoảng 20%) */
+.sidebar {
+  flex: 0 0 20%;
+}
+
+/* Main content (chiếm khoảng 80%) */
+.main-content {
+  flex: 1;
+}

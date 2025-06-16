@@ -1,0 +1,29 @@
+.filter-sidebar {
+  background-color: #f8f9fa;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.05);
+}
+
+.filter-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.filter-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filter-item {
+  padding: 6px 0;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.filter-item:hover {
+  color: #dc3545;
+  font-weight: 500;
+}

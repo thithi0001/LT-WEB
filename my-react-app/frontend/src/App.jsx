@@ -8,6 +8,7 @@ import {
 import MainLayout from "./layouts/MainLayout";
 import HomePage from "./pages/HomePage";
 import AllProductsPage from "./pages/AllProductsPage";
+import PromotionPage from "./pages/PromotionPage";
 import CartPage from "./pages/CartPage";
 
 const App = () => {
@@ -15,10 +16,13 @@ const App = () => {
     createRoutesFromElements(
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
+        
+        {/*Client*/}
         <Route path="/products" element={<AllProductsPage />} />
         <Route path="/products/:category" element={<AllProductsPage />} />
         <Route path="/products/:category/:id" element={<AllProductsPage />} />
         <Route path="/cart" element={<CartPage />} />
+        <Route path="/promotion" element={<PromotionPage />} />
       </Route>
     )
   );

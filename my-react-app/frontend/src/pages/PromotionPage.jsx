@@ -1,5 +1,3 @@
-import Header from '../components/Header';
-import NavBarCustomer from '../components/NavBarCustomer';
 import ProductFilterSidebar from '../components/ProductFilterSidebar';
 import PriceFilter from '../components/PriceFilter';
 import ProductList from '../components/ProductList';
@@ -54,7 +52,7 @@ import '../assets/css/AllProductsPage.css';
 
 
 
-function AllProductsPage() {
+function PromotionPage() {
   const mockProducts = Array(12).fill({
     name: 'Bánh tráng phơi sương',
     price: '20.000',
@@ -112,4 +110,4 @@ function AllProductsPage() {
   );
 }
 
-export default AllProductsPage;
+export default PromotionPage;
